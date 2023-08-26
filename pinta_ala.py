@@ -1,5 +1,6 @@
 print("moikka")
 
+
 # nimi = "naima"
 nimi = input("mikä on sinun nimesi: ")
 
@@ -14,6 +15,7 @@ print(f"the area is: {area}")
 print(f"the area is: {area:5.2f}")
 
 
+
 import math
 #lasketaan suorakolmoinen kannan ja korkeus
 
@@ -23,5 +25,8 @@ B = float(input("Anna 2. kateetin pituus:"))
 # laskee hypotenuus
 C = math.sqrt(A**2 + B**2)
 print(C)
+
+print("Hypotenuus pituus on",C)
+
 
 

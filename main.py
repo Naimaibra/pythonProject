@@ -10,7 +10,7 @@ print(name)
 # tyyppimuunos 12 -> "12"
 # age = str(age)
 print(name + ",ikä:" + str(age))
-# luetaan käyttäjältä syötä ja sijoittaa sen muutajaan
+# luetaan käyttäjältä syötä ja sijoittaa sen muutajaa
 name = input("kuka olet?")
 age = input("kuinka vanha olet?")
 print("moi" + name+", olet" + age +"vuotta vanha." )

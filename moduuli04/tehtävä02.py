@@ -1,4 +1,5 @@
-# Aloitetaan tyhjä lista, johon tallennetaan käyttäjän syöttämät luvut
+
+#Aloitetaan tyhjä lista, johon tallennetaan käyttäjän syöttämät luvut
 numerot = []
 
 # Kysytään käyttäjältä lukuja siihen saakka, kunnes tyhjä merkkijono syötetään
@@ -6,7 +7,8 @@ while True:
     syote = input("Syötä luku (tyhjä rivi lopettaa): ")
 
     if syote == "":
-        break
+
+         break
 
     try:
         luku = float(syote)  # Yritetään muuttaa syöte luvuksi
@@ -24,3 +26,6 @@ else:
     print("Viisi suurinta lukua:")
     for i in range(5):
         print(numerot[i])
+'''''
+
+kapu

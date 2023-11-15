@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>06</title>
+</head>
+<body>
+<div id="result"></div>
+<script>
+  "use strict";
+  const vastaus = confirm("Should I calculate the square root?");
+  console.log(vastaus);
+
+  if (vastaus) {
+    const number = parseInt(prompt("Please give me a number:"));
+    const result = document.querySelector('#result');
+    if (number >= 0) {
+      let squareRoot = Math.sqrt(number);
+      result.innerHTML = `The square root of ${number} is ${squareRoot}`;
+
+    } else {
+      result.innerHTML = "The square root of a negative number is not defined.";
+    }
+
+  } else{
+    result.innerHTML = "The square root is not calculated.";
+  }
+</script>
+
+</body>
+</html>

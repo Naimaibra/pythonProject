@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Probability Calculator</title>
+</head>
+<body>
+  <h2>Dice Probability Calculator</h2>
+  <form id="diceForm">
+    <label for="numberOfDice">Number of Dice:</label>
+    <input type="number" id="numberOfDice" required>
+
+    <label for="desiredSum">Desired Sum:</label>
+    <input type="number" id="desiredSum" required>
+
+    <button type="button" onclick="calculateProbability()">Calculate Probability</button>
+  </form>
+
+  <p id="probabilityResult"></p>
+
+  <script src="10.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+/* Add any additional styling here */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, button {
+  margin-bottom: 10px;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 10px;
+}

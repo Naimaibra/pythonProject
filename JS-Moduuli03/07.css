@@ -1,0 +1,10 @@
+
+#target {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease-in-out;
+        }
+
+#trigger:hover #target {
+    transform: scale(1.1); /* Adjust the scale factor for zoom effect */
+        }

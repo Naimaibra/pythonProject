@@ -1,0 +1,14 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+label, input, button {
+  margin-bottom: 10px;
+}
+
+#target {
+  font-weight: bold;
+  margin-top: 10px;
+}
